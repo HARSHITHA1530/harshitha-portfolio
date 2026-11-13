@@ -96,3 +96,21 @@ footer{padding:30px 0;text-align:center;color:var(--muted);font-size:.88rem;posi
 @media(max-width:900px){.proj h4{min-height:0}}
 .dl{background:linear-gradient(110deg,var(--a),var(--b));color:#06101f;border-color:transparent}
 .social .btn.dl:hover{color:#06101f;border-color:transparent}
+
+.me{display:flex;align-items:center;gap:18px;margin-bottom:14px}.me .hi{margin:0}
+.avatar{width:116px;height:116px;border-radius:50%;object-fit:cover;padding:4px;background:linear-gradient(135deg,var(--a),var(--b),var(--c));box-shadow:0 14px 44px -14px var(--b);flex:none}
+.card.w6{grid-column:span 6}
+.cform{max-width:600px;margin:56px auto 0;padding-top:44px;border-top:1px solid var(--line);text-align:left;display:grid;gap:8px}
+.cform h3{font:700 1.15rem var(--dn);letter-spacing:-.02em;text-align:center}
+.cform .cnote{margin:0 0 14px;font-size:.98rem;text-align:center}
+.cform label{font-weight:700;font-size:.92rem;margin-top:10px}
+.cform input[type=text],.cform input[type=email],.cform textarea{width:100%;font:500 1rem var(--bd);color:var(--ink);background:color-mix(in srgb,var(--bg) 55%,transparent);border:1px solid var(--line);border-radius:14px;padding:14px 16px;transition:border-color .2s,box-shadow .2s}
+.cform textarea{resize:vertical;min-height:140px}
+.cform ::placeholder{color:var(--muted);opacity:.8}
+.cform input:focus,.cform textarea:focus{outline:none;border-color:var(--a);box-shadow:0 0 0 3px color-mix(in srgb,var(--a) 25%,transparent)}
+.cform button{margin-top:18px;border:0;cursor:pointer;font-family:var(--bd);width:100%}
+.cform button[disabled]{opacity:.6;cursor:progress}
+.cform .fstat{margin:8px 0 0;min-height:1.6em;font-size:.95rem;text-align:center;font-weight:700}
+.cform .fstat.ok{color:var(--a)}.cform .fstat.err{color:var(--c)}.cform .fstat a{color:inherit}
+@media(max-width:560px){.avatar{width:92px;height:92px}.me{gap:14px}}
+.cert small{line-height:1.4}
